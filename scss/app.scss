@@ -6,7 +6,7 @@
 
 @include foundation-global-styles;
 @include foundation-grid;
-// @include foundation-flex-grid;
+@include foundation-flex-grid;
 @include foundation-typography;
 @include foundation-button;
 @include foundation-forms;
@@ -48,3 +48,19 @@
 
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+
+
+
+
+.font-01 {
+   font-family: 'Permanent Marker', cursive;
+}
+
+.font-02 {
+   font-family: 'Special Elite', cursive;
+}
+
+.font-03 {
+   font-family: 'Averia Sans Libre', cursive;
+}
