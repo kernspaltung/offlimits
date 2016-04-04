@@ -49,18 +49,33 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
+@import 'layout_utils';
 
+@import 'colores';
+@import 'tipografias';
 
-
-
-.font-01 {
-   font-family: 'Permanent Marker', cursive;
+p {
+   text-align: left;
+}
+img {
+   min-width: 100%;
+   height: auto;
+}
+li {
+   list-style: none;
 }
 
-.font-02 {
-   font-family: 'Special Elite', cursive;
+
+
+
+
+
+
+%pattern {
+  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAEklEQVQImWNgIBmcOnXKl3RdAI02Aqx7ujt2AAAAAElFTkSuQmCC) repeat;
 }
 
-.font-03 {
-   font-family: 'Averia Sans Libre', cursive;
+.img-overlay {
+  @extend %pattern;
+  background-color: rgba(0,0,0,0.6);
 }
