@@ -23,8 +23,8 @@ get_header();
    ?>
 
 </div>
-<div id="blog_inicio" class="small-12 mt_sm_4 medium-6 columns h_80vh rel">
-   <article id="noticia_principal" class="columns p5 black_bg vcenter_md h_40vh align-middle">
+<div id="blog_inicio" class="small-12 mt_sm_4 medium-6 columns rel">
+   <article id="noticia_principal" class="columns p5 black_bg vcenter_md">
 
       <?php
       $args = array( "category_name" => "inicio", "posts_per_page" => 1 );
@@ -36,7 +36,7 @@ get_header();
 
       <h3><?php echo get_the_title(); ?></h3>
 
-      <div class="imagen small-10 small-offset-1 medium-4 medium-offset-0 columns ">
+      <div class="imagen small-6 small-offset-3 end medium-4 medium-offset-0 columns ">
          <a href="<?php the_post_thumbnail_url('full'); ?>" target="_blank">
             <?php echo get_the_post_thumbnail( get_the_ID(),'thumb'); ?>
          </a>
