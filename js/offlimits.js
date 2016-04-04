@@ -6,4 +6,7 @@ jQuery(document).ready(function($){
    $('.imgLiquid.imgLiquidFill').imgLiquid();
    $('.imgLiquid.imgLiquidNoFill').imgLiquid({fill:false});
    u.vcenter();
+   if( $(window).width()>768) {
+      u.vcenter('.vcenter_md');
+   }
 })

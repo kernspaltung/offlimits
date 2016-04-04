@@ -23,10 +23,8 @@ get_header();
    ?>
 
 </div>
-<div id="blog_inicio" class="small-12 mt_sm_4 medium-6 columns h_80vh">
-   <div class="row h_80vh align-middle">
-
-   <article id="noticia_principal" class="columns p5 black_bg vcenter">
+<div id="blog_inicio" class="small-12 mt_sm_4 medium-6 columns h_80vh rel">
+   <article id="noticia_principal" class="columns p5 black_bg vcenter_md h_40vh align-middle">
 
       <?php
       $args = array( "category_name" => "inicio", "posts_per_page" => 1 );
@@ -53,9 +51,8 @@ get_header();
       endif;
       ?>
 
-      </article>
-   </div>
-   </div>
+   </article>
+</div>
 
 
 <?php
