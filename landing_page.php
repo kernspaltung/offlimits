@@ -24,7 +24,7 @@ get_header();
 
 </div>
 <div id="blog_inicio" class="small-12 mt_sm_4 medium-6 columns h_80vh">
-   <div class="row h_100 align-middle">
+   <div class="row h_80vh align-middle">
 
    <article id="noticia_principal" class="columns p5 black_bg vcenter">
 
