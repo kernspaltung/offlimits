@@ -12,7 +12,7 @@
    ?>
 </head>
 <body>
-   <div id="contenedor" class="row align-middle" style="height:100vh">
+   <div id="contenedor" class="row align-middle ovyH" style="height:100vh">
 
       <div class="absUpL z-1 w_100vw h_100vh imgLiquid imgLiquidFill">
          <img src="<?php echo get_stylesheet_directory_uri() . "/recursos/img/"; ?>ilustracion.jpg" alt="" class="">
@@ -21,9 +21,9 @@
 
       <header id="cabecera" class="columns shrink align-middle text-right">
          <div class="columns">
-            <a href="mailto:info@offlimits.mx">
+            <a href="mailto:offlimits.mx@gmail.com">
                <i class="fa fa-envelope fontXL hvrshw"></i>
             </a>
          </div>
       </header>
-      <main class="columns text-center">
+      <main class="columns text-center scrollH h_80vh">

@@ -29,7 +29,7 @@ get_header();
    <article id="noticia_principal" class="columns p5 black_bg vcenter">
 
       <?php
-      $args = array( "category_name" => "inicio" );
+      $args = array( "category_name" => "inicio", "posts_per_page" => 1 );
       $q = new WP_Query($args);
       if( $q->have_posts()):
          while( $q->have_posts()):
