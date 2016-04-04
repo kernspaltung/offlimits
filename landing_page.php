@@ -3,7 +3,7 @@
 get_header();
 ?>
 
-<div id="portada" class="small-12 medium-6 columns align-middle text-center">
+<div id="portada" class="small-12 medium-6 columns align-middle text-center h_80vh">
 
    <?php
 
@@ -13,7 +13,7 @@ get_header();
 
    ?>
 
-   <div class="columns rel">
+   <div class="columns rel ">
       <?php echo get_the_content(); ?>
    </div>
 
