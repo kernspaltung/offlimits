@@ -42,7 +42,7 @@ get_header();
          </a>
       </div>
 
-      <div class="contenido medium-8 columns text-left">
+      <div class="contenido medium-8 columns text-left p4">
          <?php echo apply_filters('the_content', get_the_content()); ?>
       </div>
 
