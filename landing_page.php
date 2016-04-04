@@ -13,7 +13,7 @@ get_header();
 
    ?>
 
-   <div class="columns rel ">
+   <div class="columns rel vcenter_md">
       <?php echo get_the_content(); ?>
    </div>
 
