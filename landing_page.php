@@ -39,7 +39,7 @@ get_header();
       <h3><?php echo get_the_title(); ?></h3>
 
       <div class="imagen small-10 small-offset-1 medium-4 medium-offset-0 columns ">
-         <a href="<?php the_post_thumbnail_url('full'); ?>">
+         <a href="<?php the_post_thumbnail_url('full'); ?>" target="_blank">
             <?php echo get_the_post_thumbnail( get_the_ID(),'thumb'); ?>
          </a>
       </div>
