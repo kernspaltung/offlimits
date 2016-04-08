@@ -52,6 +52,7 @@ get_header();
       ?>
 
    </article>
+
 </div><!-- #blog_inicio -->
 
 
