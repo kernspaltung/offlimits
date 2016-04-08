@@ -24,7 +24,7 @@
    } else {
 
       $description = get_bloginfo('description');
-      $url = bloginfo('url');
+      $url = get_bloginfo('url');
 
    }
 
