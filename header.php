@@ -6,18 +6,17 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-   <title>Off Limits</title>
-
 
 
    <?php
+
 
    $name = get_bloginfo('name');
 
    $twitter_user = '@offlimitsmx';
 
    if( is_single() ) {
-
+      $name = $name . '| ' . get_the_title();
       $description = apply_filters( 'the_excerpt', get_the_excerpt() );
       $url = get_the_permalink( get_the_ID() );
 
@@ -37,6 +36,8 @@
    $time = '';
 
    ?>
+
+   <title>Off Limits | <?php echo $title; ?></title>
 
 
    <meta name="description" content="<?php echo $description; ?>" />
