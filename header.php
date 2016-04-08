@@ -19,8 +19,13 @@
       </div>
       <div class="img-overlay z-1 w_100vw h_100vh absUpL"></div>
 
-      <header id="cabecera" class="columns shrink align-middle text-right">
-         <div class="columns">
+      <header id="cabecera" class="columns shrink text-right">
+         <div id="logotipo" class="small-4 medium-3 large-2 columns h_100 imgLiquid imgLiquidNoFill <?php echo is_front_page() ? 'hidden':''; ?>">
+            <a href="<?php echo site_url() ?>">
+               <img class="alignnone size-full wp-image-9" src="http://localhost/web/kernspaltung/offlimits/offlimits_wp/wp-content/uploads/2016/04/logo.png" alt="logo" width="500" height="151" />
+            </a>
+         </div>
+         <div class="small-4 medium-2 large-1 columns mt2">
             <a href="mailto:offlimits.mx@gmail.com">
                <i class="fa fa-envelope fontXL hvrshw"></i>
             </a>

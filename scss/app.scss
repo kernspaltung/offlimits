@@ -79,3 +79,76 @@ li {
   @extend %pattern;
   background-color: rgba(0,0,0,0.6);
 }
+
+
+img {
+   width: 100%;
+   height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Blog:
+
+
+// Single:
+
+.post {
+}
+
+.post_single {
+   background-color: #131110;
+
+   iframe {
+      width: 100% !important;
+   }
+   img {
+      margin: $spacing * 4 0;
+   }
+   .social-sharing {
+      @extend .p4;
+      .before-sharebutton-text {
+         font-size: $fontXL;
+         font-family: 'Special Elite', cursive;
+         @extend .black_bg;
+         @extend .p3;
+         @extend .mb1;
+
+         text-align: center;
+
+         width: auto;
+         clear: both;
+         display: block;
+         margin-right: 20px;
+
+
+      }
+      text-align: right;
+      margin-bottom: $spacing * 2;
+   }
+
+   p {
+      @extend .black_bg;
+      @extend .p5;
+      @extend .mt2;
+      @extend .mb2;
+
+   }
+   padding: $spacing * 3 !important;
+}

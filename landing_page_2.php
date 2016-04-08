@@ -1,5 +1,5 @@
 <?php
-// Template Name: Landing Page
+// Template Name: Landing Page 2
 get_header();
 ?>
 
@@ -53,6 +53,14 @@ get_header();
 
    </article>
 </div><!-- #blog_inicio -->
+
+
+
+
+
+
+
+<?php include_once 'secciones/01-b-landing-blog.php'; ?>
 
 
 <?php
