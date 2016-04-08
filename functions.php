@@ -1,8 +1,8 @@
 <?php
-
-
+//
+//
 add_theme_support( 'post-thumbnails' );
-add_action('init','recursos');
+add_action('wp_enqueue_scripts','recursos');
 function recursos() {
 
    $themeDir = get_stylesheet_directory_uri() . "/";

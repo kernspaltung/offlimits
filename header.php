@@ -60,7 +60,7 @@
    <meta property="og:type" content="article" />
    <meta property="og:url" content="<?php echo $url; ?>" />
    <meta property="og:image" content="<?php echo $image; ?>" />
-   <meta property="og:description" content="<?php echo $description; ?> ?>" />
+   <meta property="og:description" content="<?php echo $description; ?>" />
    <meta property="og:site_name" content="<?php echo $name; ?>" />
    <meta property="article:published_time" content="<?php echo $date; ?>" />
    <meta property="article:modified_time" content="<?php echo $time; ?>" />
