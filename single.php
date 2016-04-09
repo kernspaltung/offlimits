@@ -20,45 +20,6 @@ if( have_posts()):
             </a>
          </div>
 
-         <div class="ficha-tecnica row text-right black_bg p4">
-            <div class="medium-4 columns">
-               <h6 class="h_20 mb1">Ciudad de México, 2009</h6>
-
-               <h6 class="small-12 text-right h_20 mb1">Discografía</h6>
-
-               <ul>
-                  <li class="fontXS"><i>Nombre Album 1, 2011</i></li>
-                  <li class="fontXS"><i>Nombre Album 2, 2012</i></li>
-                  <li class="fontXS"><i>Nombre Album 3, 2013</i></li>
-                  <li class="fontXS"><i>Nombre Album 4, 2014</i></li>
-                  <li class="fontXS"><i>Nombre Album 5, 2015</i></li>
-               </ul>
-            </div>
-            <div class="medium-4 columns">
-
-               <h6 class="small-12 text-right h_20 mb1">Integrantes</h6>
-               <ul class="small-12 text-right">
-                  <li>Nombre Integrante 1</li>
-                  <li>Nombre Integrante 2</li>
-                  <li>Nombre Integrante 3</li>
-                  <li>Nombre Integrante 4</li>
-                  <li>Nombre Integrante 5</li>
-                  <li>Nombre Integrante 6</li>
-               </ul>
-            </div>
-            <div class="small-4 columns fontXS">
-
-               <h6 class="small-12 text-right h_20 mb1">Enlaces</h6>
-               <ul class="small-12 text-right ">
-                  <li class="fontXS"><a href="#"><b>Facebook:</b> http://facebook.com/hackavitz</a></li>
-                  <li class="fontXS"><a href="#"><b>Facebook:</b> http://facebook.com/hackavitz</a></li>
-                  <li class="fontXS"><a href="#"><b>Facebook:</b> http://facebook.com/hackavitz</a></li>
-                  <li class="fontXS"><a href="#"><b>Facebook:</b> http://facebook.com/hackavitz</a></li>
-                  <li class="fontXS"><a href="#"><b>Facebook:</b> http://facebook.com/hackavitz</a></li>
-               </ul>
-            </div>
-
-         </div>
 
          <div class="contenido row text-left mt2 p5">
             <?php echo apply_filters('the_content', get_the_content()); ?>

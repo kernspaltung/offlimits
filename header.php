@@ -16,7 +16,7 @@
    $twitter_user = '@offlimitsmx';
 
    if( is_single() ) {
-      $name = $name . '| ' . get_the_title();
+      $name = $name . ': ' . get_the_title();
       $description = apply_filters( 'the_excerpt', get_the_excerpt() );
       $url = get_the_permalink( get_the_ID() );
 
