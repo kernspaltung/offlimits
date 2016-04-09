@@ -3,7 +3,7 @@
 get_header();
 ?>
 
-<div id="portada" class="small-12 medium-6 columns align-middle text-center h_80vh h_sm_60vh rel">
+<div id="portada" class="small-12 medium-6 columns align-middle text-center h_65vh h_sm_60vh rel">
 
    <?php
 
