@@ -1,4 +1,7 @@
-<div id="blog_inicio" class="small-12 columns  mt4 h_100  ">
+<div id="blog_bandas" class="small-12 columns  mt4 h_100  ">
+
+<h1>Presentación del Festival: 15 de abril, 2016</h1>
+
 <div class="row align-center">
 
       <?php
