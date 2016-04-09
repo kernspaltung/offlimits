@@ -19,9 +19,13 @@
 
                <a href="<?php echo get_the_permalink(get_the_ID()); ?>">
 
-               <h3><?php echo get_the_title(); ?></h3>
+               <div class="title row h_20vh">
+                  <div class="row vcenter">
+                     <h3 class="p4"><?php echo get_the_title(); ?></h3>
+                  </div>
+               </div>
 
-               <div class="imagen row columns imgLiquid imgLiquidFill h_25vh">
+               <div class="imagen row columns imgLiquid imgLiquidNoFill h_35vh">
                   <?php echo get_the_post_thumbnail( get_the_ID(),'thumb'); ?>
                </div>
 
