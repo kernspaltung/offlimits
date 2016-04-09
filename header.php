@@ -37,7 +37,7 @@
 
    ?>
 
-   <title>Off Limits | <?php echo $title; ?></title>
+   <title><?php echo $name; ?></title>
 
 
    <meta name="description" content="<?php echo $description; ?>" />
