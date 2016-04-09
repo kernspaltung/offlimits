@@ -30,7 +30,7 @@
                </div>
 
                <div class="contenido small-12 columns  text-left p4 pb0 black pt0">
-                  <?php echo apply_filters('the_content', wp_trim_words( get_the_content(), 35 ) ); ?>
+                  <?php echo apply_filters('the_excerpt', get_the_excerpt() ); ?>
                </div>
 
                <div class="ver-mas small-12 text-right black">
