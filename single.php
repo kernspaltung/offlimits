@@ -22,7 +22,7 @@ if( have_posts()):
             </a>
          </div>
 
-         <div class="fecha row text-right fontS p3 mb2">
+         <div class="fecha row text-right fontS p4 m0 pt0 pb0">
             <i>Publicado el: <?php echo date_i18n('d \d\e F. Y',strtotime($post->post_date)); ?></i>
          </div>
 
