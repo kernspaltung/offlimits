@@ -44,7 +44,7 @@
 
    <!-- Schema.org markup for Google+ -->
    <meta itemprop="name" content="<?php echo $name; ?>">
-   <meta itemprop="description" content="<?php echo $description; ?> ?>ss">
+   <meta itemprop="description" content="<?php echo $description; ?>">
    <meta itemprop="image" content="<?php echo $image; ?>">
 
    <!-- Twitter Card data -->
