@@ -23,7 +23,7 @@ get_header();
    ?>
 
 </div>
-<div id="blog_inicio" class="small-12 mt_sm_4 medium-6 columns rel h_100">
+<div id="blog_inicio" class="small-12 mt_sm_4 medium-6 columns rel h_85">
    <article id="noticia_principal" class="columns p5 black_bg vcenter_md">
 
       <?php
