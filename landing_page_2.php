@@ -43,7 +43,7 @@ get_header();
       </div>
 
       <div class="contenido medium-8 columns text-left p4">
-         <?php echo apply_filters('the_content', get_the_content()); ?>
+         <?php echo apply_filters('the_excerpt', get_the_excerpt()); ?>
       </div>
 
       <?php
