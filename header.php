@@ -70,6 +70,18 @@
    <?php
    wp_head();
    ?>
+
+   <script>
+     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+     ga('create', 'UA-76176145-1', 'auto');
+     ga('send', 'pageview');
+
+   </script>
+
 </head>
 <body>
    <div id="contenedor" class="row align-middle ovyH" style="height:100vh">
@@ -79,7 +91,7 @@
       </div>
       <div class="img-overlay z-1 w_100vw h_100vh absUpL"></div>
 
-      <header id="cabecera" class="columns shrink text-right">
+      <header id="cabecera" class="columns shrink text-right h_15vh">
          <div id="logotipo" class="small-4 medium-3 large-2 columns h_100 imgLiquid imgLiquidNoFill <?php echo is_front_page() ? 'hidden':''; ?>">
             <a href="<?php echo site_url() ?>">
                <img class="alignnone size-full wp-image-9" src="http://localhost/web/kernspaltung/offlimits/offlimits_wp/wp-content/uploads/2016/04/logo.png" alt="logo" width="500" height="151" />
@@ -91,4 +103,5 @@
             </a>
          </div>
       </header>
-      <main class="columns text-center scrollH h_80vh">
+
+      <main class="columns text-center scrollH h_80vh h_75vh">

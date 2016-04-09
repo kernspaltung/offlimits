@@ -1,6 +1,6 @@
    </main>
 
-   <footer id="pie_pagina" class="columns shrink align-middle">
+   <footer id="pie_pagina" class="columns shrink align-middle h_10vh">
 
       <div id="redes" class="small-8 medium-6 medium-offset-3 columns align-center">
          <div class="row align-center">
