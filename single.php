@@ -14,6 +14,10 @@ if( have_posts()):
             <?php echo get_the_title(); ?>
          </h3>
 
+         <div class="small-12 columns text-right fontS p3">
+            <i>Publicado el: <?php echo date_i18n('d \d\e F. Y',strtotime($post->post_date)); ?></i>
+         </div>
+
          <div class="imagen row h_35vh imgLiquid imgLiquidFill m4">
             <a href="<?php the_post_thumbnail_url('full'); ?>" target="_blank">
                <?php echo get_the_post_thumbnail( get_the_ID(),'thumb'); ?>
