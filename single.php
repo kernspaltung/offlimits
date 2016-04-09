@@ -26,7 +26,7 @@ if( have_posts()):
             <i>Publicado el: <?php echo date_i18n('d \d\e F. Y',strtotime($post->post_date)); ?></i>
          </div>
 
-         <div class="contenido row text-left mt2 p5">
+         <div class="contenido row text-left p5">
             <?php echo apply_filters('the_content', get_the_content()); ?>
          </div>
 
