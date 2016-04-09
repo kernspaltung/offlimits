@@ -20,7 +20,7 @@
                <a href="<?php echo get_the_permalink(get_the_ID()); ?>">
 
                <div class="title row h_20vh">
-                  <div class="row vcenter">
+                  <div class="row vcenter text-center">
                      <h3 class="p4"><?php echo get_the_title(); ?></h3>
                   </div>
                </div>
