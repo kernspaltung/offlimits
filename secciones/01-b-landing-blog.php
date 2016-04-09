@@ -14,7 +14,7 @@
 
             ?>
 
-            <article id="post_<?php echo get_the_ID(); ?>" class="small-10 medium-6 large-4 <?php echo $q->post_count > 1 ? 'columns' : 'small-centered'; ?> p5 rel">
+            <article id="post_<?php echo get_the_ID(); ?>" class="small-12 medium-6 large-4 <?php echo $q->post_count > 1 ? 'columns' : 'small-centered'; ?> p5 p_sm_2 rel">
                <div class="row h_a p4 black_bg">
 
                <a href="<?php echo get_the_permalink(get_the_ID()); ?>">
