@@ -8,7 +8,7 @@ if( have_posts()):
       the_post();
       ?>
 
-      <article id="post_<?php echo get_the_ID(); ?>" class="post post_single white_bg small-12 small-centered medium-10 large-8 columns p5">
+      <article id="post_<?php echo get_the_ID(); ?>" class="post post_single white_bg small-12 small-centered medium-10 large-8 columns p5 p_sm_2">
 
 
 
@@ -26,7 +26,7 @@ if( have_posts()):
             <i>Publicado el: <?php echo date_i18n('d \d\e F. Y',strtotime($post->post_date)); ?></i>
          </div>
 
-         <div class="contenido row text-left p5">
+         <div class="contenido row text-left p5 p_sm_1">
             <?php echo apply_filters('the_content', get_the_content()); ?>
          </div>
 

@@ -5947,8 +5947,7 @@ img {
   height: auto; }
 
 .post_single {
-  background-color: #131110;
-  padding: 45px !important; }
+  background-color: #131110; }
   .post_single iframe {
     width: 100% !important; }
   .post_single img {
