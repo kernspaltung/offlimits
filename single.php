@@ -10,13 +10,14 @@ if( have_posts()):
 
       <article id="post_<?php echo get_the_ID(); ?>" class="post post_single white_bg small-12 small-centered medium-10 large-8 columns p5">
 
-         <h3 class="p4 black_bg text-left">
-            <?php echo get_the_title(); ?>
-         </h3>
 
          <div class="fecha row text-right fontS p3 mb2">
             <i>Publicado el: <?php echo date_i18n('d \d\e F. Y',strtotime($post->post_date)); ?></i>
          </div>
+
+         <h3 class="p4 black_bg text-right">
+            <?php echo get_the_title(); ?>
+         </h3>
 
          <div class="imagen row h_55vh imgLiquid imgLiquidFill m4">
             <a href="<?php the_post_thumbnail_url('full'); ?>" target="_blank">
