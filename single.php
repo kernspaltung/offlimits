@@ -16,7 +16,7 @@ if( have_posts()):
             <?php echo get_the_title(); ?>
          </h3>
 
-         <div class="imagen row h_55vh imgLiquid imgLiquidFill m4">
+         <div class="imagen row h_55vh imgLiquid imgLiquidNoFill m4">
             <a href="<?php the_post_thumbnail_url('full'); ?>" target="_blank">
                <?php echo get_the_post_thumbnail( get_the_ID(),'thumb'); ?>
             </a>
